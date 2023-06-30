@@ -20,7 +20,7 @@ export default function MainPage(){
         </div>
 
         <div className="Testimonials flex flex-row text-left">
-          <div className="p-20">
+          <div className="p-20 pt-[140px]">
             <div className="w-[767px] h-[231px] relative">
               <div className="w-[373px] h-[123px] left-0 top-0 absolute">
                 <img
@@ -47,14 +47,20 @@ export default function MainPage(){
           </div>
           <div>
             <div className="w-[17px] h-[34px] relative">
-              <div className="w-[24.04px] h-[0px] left-0 top-0 absolute origin-top-left rotate-45 border border-white"></div>
-              <div className="w-[24.04px] h-[0px] left-0 top-[34px] absolute origin-top-left -rotate-45 border border-white"></div>
+              <div className="w-[24.04px] h-[0px] left-0 top-[200px] absolute origin-top-left rotate-45 border border-white"></div>
+              <div className="w-[24.04px] h-[0px] left-0 top-[234px] absolute origin-top-left -rotate-45 border border-white"></div>
             </div>
           </div>
           <div className="p-20">
             <img className="w-[300px] h-[300px]" src="../../public/11.png" />
           </div>
         </div>
+      </div>
+      <div className=" Footer bg-gradient-to-r from-[#159C98] to-[#138F9E] text-center p-8 place-content-center">
+        <img
+          className="w-[1370px] h-[163px]"
+          src="../../public/Scroller with logos.png"
+        />
       </div>
     </div>
   );
