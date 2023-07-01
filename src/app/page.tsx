@@ -24,7 +24,7 @@ export default async function MainPage(){
           Backed by the best
         </div>
         <div className="font-poppins text-center text-white text-[30px] font-light">
-          Wealthup is backed and supported by
+          Wealthup is backed and supported by 
         </div>
         <div className="place-content-center pt-10">
           <img src="../../public/13.png" alt="Image not showing" />
