@@ -7,10 +7,10 @@ function getTodos() {
   return prisma.todo.findMany();
 }
 
-async function toggleTodo(id: string, complete: boolean) {
+async function toggleTodo(id: string, completion: boolean) {
   "use server";
 
-  await prisma.todo.update({ where: { id }, data: { complete } });
+  await prisma.todo.update({ where: { id }, data: { completion } });
 }
 
 export default async function MainPage(){
@@ -78,7 +78,7 @@ export default async function MainPage(){
           src="../../public/Scroller with logos.png"
         />
       </div>
-      <div className='h-[100px] p-10'>
+      <div className=' p-10'>
         <header className="flex justify-between items-center mb-4">
           <h1 className="text-2xl">Todos</h1>
           <Link
