@@ -78,7 +78,7 @@ export default async function MainPage(){
           src="../../public/Scroller with logos.png"
         />
       </div>
-      <>
+      <div className='h-[100px] p-10'>
         <header className="flex justify-between items-center mb-4">
           <h1 className="text-2xl">Todos</h1>
           <Link
@@ -93,7 +93,7 @@ export default async function MainPage(){
             <TodoItem key={todo.id} {...todo} toggleTodo={toggleTodo} />
           ))}
         </ul>
-      </>
+      </div>
     </div>
   );
 }
